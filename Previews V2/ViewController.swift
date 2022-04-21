@@ -16,7 +16,6 @@ class ViewController: UIViewController, ARSessionDelegate {
 //private var imageAnchorToEntity: [ARImageAnchor: AnchorEntity] = [:]
 
 
-    
     let boxAnchor = try! Experience.loadLibrary1()
         var imageAnchorToEntity: [ARImageAnchor: AnchorEntity] = [:]
        
@@ -46,13 +45,14 @@ class ViewController: UIViewController, ARSessionDelegate {
         }
 
     func resetTrackingConfig() {
-
-        //guard let refImg = ARReferenceImage.referenceImages(inGroupNamed: "Sub",
-        //                                                          bundle: nil)
+//Maybe this will make it so it doesnt need to keep resetting the tracking of the image
+        
+       // guard let refImg = ARReferenceImage.referenceImages(inGroupNamed: "AR Resource",
+                        //                                          bundle: nil)
        // else { return }
 
         let config = ARWorldTrackingConfiguration()
-        config.detectionImages = refImg
+       // config.detectionImages = refImg
         config.maximumNumberOfTrackedImages = 1
 
         let options = [ARSession.RunOptions.removeExistingAnchors,
