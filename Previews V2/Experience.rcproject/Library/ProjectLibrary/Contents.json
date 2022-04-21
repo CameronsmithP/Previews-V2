@@ -3,5 +3,20 @@
     "libraryIdentifier" : "42a0fdb39d7d8cefdd474103c69e056e",
     "format" : "model",
     "displayName" : "tims balls.usdz"
+  },
+  {
+    "libraryIdentifier" : "c864bde7e802d489acb32409497ac712",
+    "format" : "image",
+    "displayName" : "Librarybetter.png"
+  },
+  {
+    "libraryIdentifier" : "1bf88302275947e8301f93893c2469a4",
+    "format" : "model",
+    "displayName" : "LIBRARY.usdz"
+  },
+  {
+    "libraryIdentifier" : "4573ab06542e47c874cd398aaa6a0605",
+    "format" : "model",
+    "displayName" : "BATHROOMICON.usdz"
   }
 ]

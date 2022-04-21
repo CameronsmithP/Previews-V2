@@ -29,7 +29,7 @@ class ViewController: UIViewController, ARSessionDelegate {
         func session(_ session: ARSession, didAdd anchors: [ARAnchor]) {
             anchors.compactMap { $0 as? ARImageAnchor }.forEach {
                 let anchorEntity = AnchorEntity()
-                let modelEntity = boxAnchor.timsballs1!
+                let modelEntity = boxAnchor.timsLiberal!
                 anchorEntity.addChild(modelEntity)
                 arView.scene.addAnchor(anchorEntity)
                 anchorEntity.transform.matrix = $0.transform

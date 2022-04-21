@@ -6,8 +6,9 @@
           "__content" : [
             {
               "arAnchorSpecification" : {
-                "alignment" : "horizontal",
-                "name" : "surface"
+                "name" : "image",
+                "physicalWidth" : 1.0667999982833862,
+                "url" : "image:c864bde7e802d489acb32409497ac712\/Librarybetter.png"
               },
               "behaviors" : [
 
@@ -24,7 +25,9 @@
                   "4A213441-135C-450E-8EF8-1A4EAB267C1D" : null,
                   "7F5F1ADC-E5E4-4EF5-A5B5-FC43B071FFA5" : null,
                   "632E476F-1E55-4E30-9723-1C51DD2E8B89" : null,
-                  "799AA0CD-E3A2-4BC8-89E3-E254C6F16312" : {
+                  "799AA0CD-E3A2-4BC8-89E3-E254C6F16312" : null,
+                  "6625A09F-2216-413D-A9EA-8E5BF56A93EE" : null,
+                  "24044DE6-5D92-45B3-963E-CD4ABFEC8BDB" : {
                     "overrides" : {
                       "children" : {
                         "USDScene" : {
@@ -48,7 +51,7 @@
                                 "url",
                                 {
                                   "typeName" : "String",
-                                  "value" : "model:42a0fdb39d7d8cefdd474103c69e056e\/tims%20balls.usdz"
+                                  "value" : "model:1bf88302275947e8301f93893c2469a4\/LIBRARY.usdz"
                                 }
                               ],
                               [
@@ -68,7 +71,7 @@
                                 "RuntimeIdentifier",
                                 {
                                   "typeName" : "UUID",
-                                  "value" : "9CF38A34-4DEC-44A6-8E5E-3CB7A6A43200"
+                                  "value" : "236D6B25-0888-4BA5-BA38-4CF4CA97049F"
                                 }
                               ]
                             ]
@@ -104,40 +107,152 @@
                           "RuntimeIdentifier",
                           {
                             "typeName" : "UUID",
-                            "value" : "D1D9543E-BDF8-435A-9593-595975B91A53"
+                            "value" : "EADECE4B-87EA-43C7-BC76-4691EA862406"
                           }
                         ],
                         [
                           "entityName",
                           {
                             "typeName" : "String",
-                            "value" : "Timsballs1"
+                            "value" : "TimsLiberal"
                           }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        0.37458217144012451,
+                        1.6555663506778728e-08,
+                        2.1568043351294364e-08,
                         0,
+                        1.6555652848637692e-08,
+                        0.096824154257774353,
+                        -0.36185204982757568,
                         0,
+                        -2.1568055785792239e-08,
+                        0.36185204982757568,
+                        0.096824154257774353,
                         0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0.12388299405574799,
-                        0,
+                        -0.05249670147895813,
+                        0.40526849031448364,
+                        0.4544769823551178,
                         1
                       ]
                     }
                   },
-                  "6625A09F-2216-413D-A9EA-8E5BF56A93EE" : null,
+                  "ABD19895-E534-428C-98F1-4BDB966BDAD2" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:4573ab06542e47c874cd398aaa6a0605\/BATHROOMICON.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "3B59A9C8-0575-4266-BAA1-2ABA6D6DC4F1"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "6C1A8821-C423-4373-BAF6-D68022A38DCB"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "TimsBathroom"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.097578689455986023,
+                        5.8181637285770194e-09,
+                        5.8160933846806984e-09,
+                        0,
+                        5.818096671106332e-09,
+                        -3.3605672797420993e-05,
+                        -0.097578674554824829,
+                        0,
+                        -5.8161591098837562e-09,
+                        0.097578674554824829,
+                        -3.3605672797420993e-05,
+                        0,
+                        0.19563119113445282,
+                        0.059773407876491547,
+                        0.49698308110237122,
+                        1
+                      ]
+                    }
+                  },
                   "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null
                 },
                 "factory" : null,
@@ -155,21 +270,21 @@
               "title" : "Library1",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.99999994039535522,
+                  -0.59919542074203491,
+                  1.4901161193847656e-08,
+                  0.80060273408889771,
                   0,
+                  0.53935569524765015,
+                  0.73901665210723877,
+                  0.40367022156715393,
                   0,
+                  -0.59165877103805542,
+                  0.67368698120117188,
+                  -0.44281566143035889,
                   0,
-                  0,
-                  0.80754858255386353,
-                  -0.58980095386505127,
-                  0,
-                  0,
-                  0.58980095386505127,
-                  0.80754858255386353,
-                  0,
-                  0,
-                  0.21890988945960999,
-                  0.24192051589488983,
+                  -2.0480184555053711,
+                  2.7142040729522705,
+                  -1.4218393564224243,
                   1
                 ],
                 "sceneTransform" : [
