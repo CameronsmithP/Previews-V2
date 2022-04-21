@@ -47,9 +47,9 @@ class ViewController: UIViewController, ARSessionDelegate {
 
     func resetTrackingConfig() {
 
-        guard let refImg = ARReferenceImage.referenceImages(inGroupNamed: "Sub",
-                                                                  bundle: nil)
-        else { return }
+        //guard let refImg = ARReferenceImage.referenceImages(inGroupNamed: "Sub",
+        //                                                          bundle: nil)
+       // else { return }
 
         let config = ARWorldTrackingConfiguration()
         config.detectionImages = refImg
