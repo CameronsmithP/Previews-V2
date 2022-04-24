@@ -44,14 +44,14 @@ class ViewController: UIViewController, ARSessionDelegate {
             }
         }
 
-    func resetTrackingConfig() {
+    //func resetTrackingConfig() {
 //Maybe this will make it so it doesnt need to keep resetting the tracking of the image
         
        // guard let refImg = ARReferenceImage.referenceImages(inGroupNamed: "AR Resource",
                         //                                          bundle: nil)
        // else { return }
 
-        let config = ARWorldTrackingConfiguration()
+       /* let config = ARWorldTrackingConfiguration()
        // config.detectionImages = refImg
         config.maximumNumberOfTrackedImages = 1
 
@@ -59,7 +59,8 @@ class ViewController: UIViewController, ARSessionDelegate {
                        ARSession.RunOptions.resetTracking]
 
         arView.session.run(config, options: ARSession.RunOptions(options))
-    }
+    }*/
         
 }
+
 
