@@ -18,5 +18,45 @@
     "libraryIdentifier" : "4573ab06542e47c874cd398aaa6a0605",
     "format" : "model",
     "displayName" : "BATHROOMICON.usdz"
+  },
+  {
+    "libraryIdentifier" : "a9103deae60bb22454ffaa9593a34baa",
+    "format" : "model",
+    "displayName" : "LIBRARY.usdz"
+  },
+  {
+    "libraryIdentifier" : "09c18b2057defc09c867e8d79bb16122",
+    "format" : "image",
+    "displayName" : "Librarybetter.png"
+  },
+  {
+    "libraryIdentifier" : "3a74dd7a2d3d33a3690a8fd9e131e8da",
+    "format" : "image",
+    "displayName" : "StuffShels.png"
+  },
+  {
+    "libraryIdentifier" : "3785dd2b608948e948d708d194facfc7",
+    "format" : "image",
+    "displayName" : "ColdStone2.png"
+  },
+  {
+    "libraryIdentifier" : "587e709de43cf72fbea6dd400ccc4ce2",
+    "format" : "model",
+    "displayName" : "EXITICON.usdz"
+  },
+  {
+    "libraryIdentifier" : "a0da7138a754fe284be2bcb05470ea83",
+    "format" : "model",
+    "displayName" : "BATHROOMICON.usdz"
+  },
+  {
+    "libraryIdentifier" : "3186604562070e356b3842692154e560",
+    "format" : "model",
+    "displayName" : "fireEscapeIcon.usdz"
+  },
+  {
+    "libraryIdentifier" : "db54467ccdc55c0a07b205ea2ebb8eda",
+    "format" : "model",
+    "displayName" : "vendingIcon.usdz"
   }
 ]
