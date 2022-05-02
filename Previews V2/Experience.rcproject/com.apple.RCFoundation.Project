@@ -320,12 +320,6 @@
                                             0.36120173335075378
                                           ],
                                           "moveEase" : "easeInOut",
-                                          "orientation" : [
-                                            -2.1460371613102325e-07,
-                                            2.8283480446589238e-07,
-                                            4.0433766912428837e-07,
-                                            1
-                                          ],
                                           "respectPhysics" : false,
                                           "target" : [
                                             "A611719E-7D98-4B0A-B5EC-8366EA4E4949"
@@ -357,12 +351,6 @@
                                             0.71734535694122314
                                           ],
                                           "moveEase" : "easeInOut",
-                                          "orientation" : [
-                                            -2.1460371613102325e-07,
-                                            2.8283480446589238e-07,
-                                            4.0433766912428837e-07,
-                                            1
-                                          ],
                                           "respectPhysics" : false,
                                           "target" : [
                                             "66C0E164-E12B-41CF-BEDA-790FAC6FF8A5"
@@ -635,6 +623,37 @@
                                         }
                                       },
                                       "identifier" : "4B671DF5-40E1-416E-8194-E278BCB6556F",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                },
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "duration" : 1,
+                                          "isTransformInitKeyPath" : true,
+                                          "linearCoefficient" : 1,
+                                          "location" : [
+                                            2.4914741516113281e-05,
+                                            1.0347505807876587,
+                                            8.9704990386962891e-06
+                                          ],
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "66C0E164-E12B-41CF-BEDA-790FAC6FF8A5"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "arguments" : "local",
+                                          "type" : "transform"
+                                        }
+                                      },
+                                      "identifier" : "F96CB183-CA3A-4843-87B4-EE5E21ED8AC3",
                                       "isEnabled" : true
                                     }
                                   ],
